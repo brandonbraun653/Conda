@@ -107,5 +107,7 @@ dependencies:
   - zipp=3.4.1=pyhd3eb1b0_0
   - zlib=1.2.11=h7b6447c_3
   - pip:
-    - python3-protobuf==2.5.0
-prefix: /home/brandon/Programs/anaconda3/envs/quadcopter
+    - grpcio==1.43.0
+    - grpcio-tools==1.43.0
+    - protobuf==3.19.1
+prefix: /home/brandon/anaconda3/envs/quadcopter
