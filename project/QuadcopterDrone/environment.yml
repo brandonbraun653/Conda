@@ -22,7 +22,9 @@ dependencies:
   - certifi=2022.5.18.1=py39hf3d152e_0
   - cffi=1.15.0=py39hd667e15_1
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
+  - control=0.9.2=pyhd8ed1ab_0
   - cryptography=37.0.2=py39hd97740a_0
+  - cycler=0.11.0=pyhd8ed1ab_0
   - dbus=1.13.18=hb2f20db_0
   - debugpy=1.5.1=py39h295c915_0
   - decorator=5.1.1=pyhd3eb1b0_0
@@ -60,11 +62,14 @@ dependencies:
   - jupyterlab_pygments=0.1.2=py_0
   - jupyterlab_server=2.14.0=pyhd8ed1ab_0
   - jupyterlab_widgets=1.0.0=pyhd3eb1b0_1
+  - kiwisolver=1.4.2=py39hf939315_1
+  - lcms2=2.12=hddcbb42_0
   - ld_impl_linux-64=2.38=h1181459_1
   - libblas=3.9.0=12_linux64_mkl
   - libcblas=3.9.0=12_linux64_mkl
   - libedit=3.1.20210910=h7f8727e_0
   - libffi=3.3=he6710b0_2
+  - libgcc=7.2.0=h69d50b8_2
   - libgcc-ng=11.2.0=h1234567_0
   - libgfortran-ng=11.2.0=h00389a5_0
   - libgfortran5=11.2.0=h1234567_0
@@ -73,12 +78,16 @@ dependencies:
   - libopenblas=0.3.20=h043d6bf_0
   - libpng=1.6.37=hbc83047_0
   - libsodium=1.0.18=h7b6447c_0
-  - libstdcxx-ng=11.2.0=h1234567_0
+  - libstdcxx-ng=12.1.0=ha89aaad_16
+  - libtiff=4.2.0=h85742a9_0
   - libuuid=1.0.3=h7f8727e_2
+  - libwebp-base=1.2.2=h7f98852_1
   - libxcb=1.15=h7f8727e_0
   - libxml2=2.9.12=h74e7548_2
   - loguru=0.6.0=py39hf3d152e_1
+  - lz4-c=1.9.3=h9c3ff4c_1
   - markupsafe=2.0.1=py39h27cfd23_0
+  - matplotlib-base=3.4.3=py39h2fa2bec_2
   - matplotlib-inline=0.1.2=pyhd3eb1b0_2
   - mistune=0.8.4=py39h27cfd23_1000
   - mkl=2021.4.0=h06a4308_640
@@ -99,6 +108,7 @@ dependencies:
   - notebook-shim=0.1.0=pyhd8ed1ab_0
   - numpy=1.22.3=py39he7a7128_0
   - numpy-base=1.22.3=py39hf524024_0
+  - olefile=0.46=pyh9f0ad1d_1
   - openssl=1.1.1o=h166bdaf_0
   - packaging=21.3=pyhd3eb1b0_0
   - pandas=1.4.2=py39h1832856_1
@@ -108,6 +118,7 @@ dependencies:
   - pcre=8.45=h295c915_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - pillow=7.2.0=py39h6f3857e_2
   - pip=21.2.4=py39h06a4308_0
   - prometheus_client=0.13.1=pyhd3eb1b0_0
   - prompt-toolkit=3.0.20=pyhd3eb1b0_0
@@ -135,8 +146,10 @@ dependencies:
   - scipy=1.8.1=py39he49c0e8_0
   - send2trash=1.8.0=pyhd3eb1b0_1
   - setuptools=61.2.0=py39h06a4308_0
+  - simple-pid=1.0.1=pyhd8ed1ab_0
   - sip=4.19.13=py39h295c915_0
   - six=1.16.0=pyhd3eb1b0_1
+  - slycot=0.4.0.0=py39hdc4cdbe_8
   - sniffio=1.2.0=py39hf3d152e_3
   - soupsieve=2.3.1=pyhd3eb1b0_0
   - sqlite=3.38.3=hc218d9a_0
@@ -160,8 +173,12 @@ dependencies:
   - zeromq=4.3.4=h2531618_0
   - zipp=3.8.0=py39h06a4308_0
   - zlib=1.2.12=h7f8727e_2
+  - zstd=1.4.9=ha95c52a_0
   - pip:
     - grpcio==1.43.0
     - grpcio-tools==1.43.0
+    - ifconfig-parser==0.0.5
     - protobuf==3.19.1
+    - python-can==4.0.0
+    - wrapt==1.14.1
 prefix: /home/brandon/git/projects/OrbitESC/.conda
