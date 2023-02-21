@@ -1,5 +1,6 @@
-name: /home/brandon/git/projects/OrbitESC/.conda
+name: /home/brandon/git/projects/IrisDev/.conda
 channels:
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
@@ -20,8 +21,8 @@ dependencies:
   - brotli=1.0.9=h5eee18b_7
   - brotli-bin=1.0.9=h5eee18b_7
   - brotlipy=0.7.0=py39h27cfd23_1003
-  - ca-certificates=2022.10.11=h06a4308_0
-  - certifi=2022.9.24=py39h06a4308_0
+  - ca-certificates=2023.01.10=h06a4308_0
+  - certifi=2022.12.7=py39h06a4308_0
   - cffi=1.15.1=py39h5eee18b_3
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - contourpy=1.0.5=py39hdb19cb5_0
@@ -94,6 +95,7 @@ dependencies:
   - libopenblas=0.3.21=h043d6bf_0
   - libpng=1.6.37=hbc83047_0
   - libpq=12.9=h16c4e8d_3
+  - libprotobuf=3.20.3=he621ea3_0
   - libsodium=1.0.18=h7b6447c_0
   - libstdcxx-ng=11.2.0=h1234567_1
   - libtiff=4.4.0=hecacb30_2
@@ -210,12 +212,12 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.2=ha4553b6_0
   - pip:
-    - cobs==1.2.0
-    - grpcio==1.43.0
-    - grpcio-tools==1.43.0
-    - ifconfig-parser==0.0.5
-    - numpy-ringbuffer==0.2.2
-    - protobuf==3.19.1
-    - python-can==4.0.0
-    - wrapt==1.14.1
-prefix: /home/brandon/git/projects/OrbitESC/.conda
+      - cobs==1.2.0
+      - grpcio==1.43.0
+      - grpcio-tools==1.43.0
+      - ifconfig-parser==0.0.5
+      - numpy-ringbuffer==0.2.2
+      - protobuf==3.19.1
+      - python-can==4.0.0
+      - wrapt==1.14.1
+prefix: /home/brandon/git/projects/IrisDev/.conda
